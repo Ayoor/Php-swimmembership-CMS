@@ -1,0 +1,60 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+}
+
+#signup{
+    text-decoration: none;
+}
+
+#parentsdiv{
+    border: 1px solid blue;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#parentsdiv span{
+    position: relative;
+    background-color: white;
+    top: -22px;
+    border: 4px solid white;
+    z-index: 2;
+}
+
+.wrapper2{
+ 
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    
+}
+
+
+/* password hint style */
+.pwhints ul {
+  font-size: 8pt;
+  list-style:none;
+}
+
+.pwhints ul li {
+  line-height: 1.9em;
+  color: #FF003C;
+}
+
+
+.pwhints ul li.pwfail {
+  color: #FF003C;
+}
+
+.pwhints ul li.pwpass{
+  color: #00C176;
+}
